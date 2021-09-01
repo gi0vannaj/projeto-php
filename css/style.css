@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    
+
+    background-image: url(../img/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+header{
+    height: 60px;
+    background-color: aqua;
+}
+
+#caixaMenu{
+    width: 150px;
+    height: 80px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45vh;
+    
+}
+
+#menu{
+    width: inherit;
+    height: inherit;
+    font-size: 2.5em;
+}
+
+.menuItem{
+    list-style: none;
+    width: inherit;
+    height: 30px;
+    color: blue;
+/*    text-align: center;*/
+    padding-top: 10px;
+    box-sizing: border-box;
+    
+}
+
+.menuItem:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.menuItem:hover >#caixaSubMenu{
+/*    display: block;*/
+    
+/* permite manipular a tranparencia do elemento*/
+    opacity: 1;
+    
+/*permite aparecer com o elemento que foi oculto*/
+    visibility: visible;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+li{
+    list-style: none;
+}
+
+#caixaSubMenu{
+    width: 180px;
+    height: 300px;
+    background-color: bisque;
+    margin-top: -20px;
+/*    list-style: none;*/
+    padding-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+/*    display: none;*/
+    
+}
+.caixaMenu2{
+    width: 150px;
+    height: 80px;
+    background-color: white;
+    margin-left: 80px;
+/*    margin-right: auto;*/
+    margin-top: 30vh;
+}
+
+#caixaTabuada{
+    width: 500px;
+    height: 400px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-top: 20 vh;*/
+    
+}
+
+.caixasDeTexto{
+    width:80ppx;
+    height: 50px;
+/*    background-color: antiquewhite;*/
+}
+
+#caixaParImpar{
+    width: 500px;
+    height: 400px;
+    background-color:cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
+#blocoPar{
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+
+#par{
+    width: 100;
+    height: 150;
+    
+    background-color: aquamarine;
+}
+#quantidadePar{
+    width: 100;
+    height: 40;
+/*    float: left;*/
+    background-color: coral;
+}
+
+#blocoImpar{
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+
+#impar{
+    width: 100;
+    height: 150;
+    
+    background-color: blueviolet;
+}
+
+#quantidadeImpar{
+    width: 100;
+    height: 40;
+/*    float: left;*/
+    background-color:blanchedalmond;
+}
